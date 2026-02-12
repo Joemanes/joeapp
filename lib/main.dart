@@ -186,7 +186,7 @@ class _LoginPageState extends State<LoginPage> {
               : TextInputType.emailAddress,
           validator: validator,
           decoration: InputDecoration(
-            hintText: isPassword ? '••••••' : 'Antre email w',
+            hintText: isPassword ? '••••••' : 'Antre email ou',
           ),
         ),
       ],
@@ -235,7 +235,7 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   const SizedBox(height: 48),
                   const Text(
-                    'Log In',
+                    'konekte',
                     style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
                   ),
                   const SizedBox(height: 32),
@@ -265,7 +265,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                       child: const Text(
-                        'Log In',
+                        'koneksyon',
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
@@ -283,7 +283,7 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
                     child: const Text(
-                      'Sign Up',
+                      'klike pou enskri',
                       style: TextStyle(
                         fontSize: 16,
                         color: Colors.black,
